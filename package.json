@@ -1,0 +1,17 @@
+{
+  "name": "bun_ai_devs",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "01": "bun 01_hello_api/01.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.31.0"
+  }
+}
